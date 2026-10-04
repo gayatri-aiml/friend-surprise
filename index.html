@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>For My Friend 💖</title>
+
+    <style>
+        body {
+            text-align: center;
+            margin-top: 150px;
+            font-family: Arial;
+            background: #ffe6f2;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 20px;
+            border: none;
+            border-radius: 10px;
+            background: #ff4f9a;
+            color: white;
+            cursor: pointer;
+        }
+
+        #message {
+            margin-top: 30px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Hello Tana , I want to show something to you ,💖✨ </h1>
+
+    <button onclick="makeHerHappy()">
+        click You want seee then click Here 🎁
+    </button>
+
+    <div id="message"></div>
+
+    <script>
+         function makeHerHappy() {
+    document.getElementById("message").innerHTML = `
+        हकीकत से बड़ी अलग है वो,
+        जिसमें सारे सपने दिखते हैं,
+        आज जो नहीं आई वो,
+        और जिसे ये दिल आज कुछ बता न पा रहा...
+        ऐसी मोहब्बत है वो 💖✨
+    `;
+}
+    </script>
+
+</body>
+</html>
